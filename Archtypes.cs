@@ -8,7 +8,7 @@ namespace FirstLesson
 {
     public sealed class DwarfRifleMan : RangedUnit
     {
-        public DwarfRifleMan():base(new Dice(2, 8, 0),Race.Dwarf, 25, 20, 3)
+        public DwarfRifleMan():base(new Bag(2, 1, 25,0),Race.Dwarf, 25, 20, 3)
         {
          
         }
@@ -82,7 +82,7 @@ namespace FirstLesson
 
     public sealed class CrossBowMan : RangedUnit
     {
-        public CrossBowMan() : base(new Dice(1, 12, 0),Race.Human, 35, 30, 5)
+        public CrossBowMan() : base(new Bag(1, 0, 20,0),Race.Human, 35, 30, 5)
         {
         }
 
